@@ -2,7 +2,7 @@
 .header{
     width: 99vw;
     height: 60px;
-    background-color: aqua;
+    background-color: #55759d;
 }
 .headerMenu{
     display: flex;
