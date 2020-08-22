@@ -1,0 +1,48 @@
+
+.header{
+    width: 99vw;
+    height: 60px;
+    background-color: aqua;
+}
+.headerMenu{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 20%;
+    background-color: #63e78e;
+}
+
+a{
+    text-decoration: none;
+    margin: 30px;
+}
+
+.block1{
+    width: 99vw;
+    height: 93vh;
+    background-color: #e272c2;
+}
+.block2{
+    width: 99vw;
+    height: 93vh;
+    background-color: #f56897;
+}
+.block3{
+    width: 99vw;
+    height: 93vh;
+    background-color: #9165ef;
+}
+.block4{
+    width: 99vw;
+    height: 93vh;
+    background-color: #ffa04d;
+}
+.block5{
+    width: 99vw;
+    height: 93vh;
+    background-color: #2fe9e9;
+}
+.footer{
+    width: 99vw;
+    height: 93vh;
+    background-color: #9d68ff;
+}
