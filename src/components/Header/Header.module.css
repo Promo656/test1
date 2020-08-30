@@ -1,0 +1,23 @@
+.headerContainer {
+    width: 99vw;
+    height: 70px;
+    background-color: #cfeaff;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+
+.headerMenu {
+    border: 2px solid black;
+    width: 350px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14pt;
+    margin-right: 200px;
+}
+
+a {
+    text-decoration: none;
+}

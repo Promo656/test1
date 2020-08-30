@@ -1,0 +1,31 @@
+.containerBlock {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 99vw;
+    height: 100vh;
+    background-color: #ffdee9;
+}
+
+.presentBlock {
+    display: flex;
+    justify-content: space-around;
+    width: 79%;
+    height: 40%;
+    border: 2px solid black;
+}
+
+.text {
+    display: flex;
+    align-self: center;
+    background-color: #d8d8d8;
+    font-size: 20pt;
+    font-weight: bold;
+}
+
+.backgroundDecoration{
+    display: flex;
+    align-self: stretch;
+    width: 20%;
+    background-color: #d8d8d8;
+}
