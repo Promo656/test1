@@ -1,20 +1,19 @@
-import s from "./SkillsBlock.module.css";
 import React from "react";
-import {Skill} from "./Skill/Skill";
+import s from "./Works.module.css"
+import {Work} from "./Work/Work";
 
-export function SkillsBlock() {
+export function Works() {
     return (
         <div className={s.containerBlock}>
             <div className={s.presentBlock}>
                 <div className={s.header}>
                     <div className={s.text}>
-                        Мои скиллы
+                        Мои работы
                     </div>
                 </div>
                 <div className={s.body}>
-                    <Skill/>
-                    <Skill/>
-                    <Skill/>
+                    <Work/>
+                    <Work/>
                 </div>
             </div>
         </div>

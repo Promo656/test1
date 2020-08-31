@@ -4,21 +4,30 @@
     align-items: center;
     width: 99vw;
     height: 100vh;
-    background-color: #ddfee9;
+    background-color: #f1e2ff;
 }
 
-.presentBlock {
+.presentBlock{
     border: 2px solid black;
     width: 79%;
     height: 60%;
 }
+
 .header{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
     border-bottom: 2px solid black;
-    height: 30%;
+    height: 35%;
 }
 
 .text{
     background-color: #d8d8d8;
     font-size: 16pt;
     font-weight: bold;
+}
+
+.body{
+    display: flex;
+    justify-content: space-between;
 }

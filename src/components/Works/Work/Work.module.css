@@ -1,0 +1,42 @@
+.containerBlock {
+    border: 2px solid black;
+    width: 40%;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    border-bottom: 2px solid #000000;
+    background-color: #d8d8d8;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text {
+    background-color: #929292;
+    padding: 5px 20px;
+    display: flex;
+    font-size: 16pt;
+    font-weight: bold;
+}
+
+.about {
+    font-size: 12pt;
+    font-weight: bold;
+    text-align: left;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.name {
+    background-color: #d9d9d9;
+}
+
+.description {
+    background-color: #d9d9d9;
+}
