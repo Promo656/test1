@@ -1,0 +1,48 @@
+.containerBlock {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 99vw;
+    height: 100vh;
+    background-color: #ffe2e2;
+}
+
+.presentBlock {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 79%;
+    height: 40%;
+    border: 2px solid black;
+}
+
+.contact {
+    background-color: #d5d9d6;
+    font-size: 15pt;
+    font-weight: bold;
+    padding: 0 5px;
+    align-self: center;
+}
+
+.form {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 40%;
+    height: 40%;
+    border: 1px solid black;
+}
+
+.message{
+    word-wrap: break-word;
+    height: 80px;
+}
+
+.sent {
+    background-color: #939494;
+    font-size: 15pt;
+    font-weight: bold;
+    padding: 6px;
+    align-self: center;
+}

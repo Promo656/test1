@@ -5,6 +5,9 @@ import {Header} from "./components/Header/Header";
 import {WelcomeBlock} from "./components/Welcome/Welcome";
 import {Skills} from "./components/Skills/Skills";
 import {Works} from "./components/Works/Works";
+import {FindNewJob} from "./components/FindNewJob/FindNewJob";
+import {ContactMe} from "./components/ContactMe/ContactMe";
+import {Footer} from "./components/Footer/Footer";
 
 function App() {
     return (
@@ -13,9 +16,9 @@ function App() {
             <WelcomeBlock/>
             <Skills/>
             <Works/>
-            <div className={s.block4}></div>
-            <div className={s.block5}></div>
-            <div className={s.footer}></div>
+            <FindNewJob/>
+            <ContactMe/>
+            <Footer/>
         </div>
     );
 }
