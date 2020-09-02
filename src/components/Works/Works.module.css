@@ -8,7 +8,6 @@
 }
 
 .presentBlock{
-    border: 2px solid black;
     width: 79%;
     height: 60%;
 }
@@ -17,7 +16,7 @@
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    border-bottom: 2px solid black;
+    border: 2px solid black;
     height: 35%;
 }
 
@@ -28,6 +27,8 @@
 }
 
 .body{
+    border-bottom: 2px solid black;
     display: flex;
     justify-content: space-between;
+    height: 65%;
 }

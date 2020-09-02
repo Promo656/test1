@@ -8,25 +8,29 @@
 }
 
 .presentBlock {
-    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
     width: 79%;
-    height: 60%;
+    height: 45%;
 }
-.header{
+
+.header {
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    border-bottom: 2px solid black;
+    border: 2px solid black;
     height: 35%;
 }
 
-.text{
+.text {
     background-color: #d8d8d8;
     font-size: 16pt;
     font-weight: bold;
 }
 
-.body{
+.body {
+    border-bottom: 2px solid black;
     display: flex;
     justify-content: space-between;
+    height: 65%;
 }

@@ -5,7 +5,9 @@ export function Work() {
     return (
         <div className={s.containerBlock}>
             <div className={s.header}>
-                <div className={s.text}>Смотреть</div>
+                <button className={s.btn}>
+                    Смотреть
+                </button>
             </div>
             <div className={s.about}>
                 <div className={s.name}>

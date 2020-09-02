@@ -15,6 +15,7 @@
     border: 2px solid black;
 }
 
+
 .text {
     display: flex;
     align-self: center;
@@ -23,9 +24,12 @@
     font-weight: bold;
 }
 
-.backgroundDecoration{
+
+.backgroundDecoration {
     display: flex;
     align-self: stretch;
     width: 20%;
     background-color: #d8d8d8;
 }
+
+

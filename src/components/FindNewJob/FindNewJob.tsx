@@ -9,9 +9,9 @@ export function FindNewJob() {
                     <div className={s.text}>
                         Рассматриваю вариант удаленной работы
                     </div>
-                    <div className={s.findMe}>
+                    <button className={s.btn}>
                         Найти меня
-                    </div>
+                    </button>
                 </div>
             </div>
         </div>

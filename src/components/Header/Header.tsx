@@ -3,7 +3,7 @@ import React from "react";
 
 export function Header() {
     return (
-        <div className={s.headerContainer}>
+        <div className={s.containerBlock}>
             <div className={s.headerMenu}>
                 <div><a href="#">Главная</a></div>
                 <div><a href="#">Скиллы</a></div>

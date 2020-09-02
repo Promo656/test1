@@ -13,9 +13,9 @@ export function ContactMe() {
                     <input type="text" placeholder={"E-mail"}/>
                     <input className={s.message} type="text" placeholder={"Your message"}/>
                 </form>
-                <div className={s.sent}>
+                <button className={s.btn}>
                     Отправить
-                </div>
+                </button>
             </div>
         </div>
     )
