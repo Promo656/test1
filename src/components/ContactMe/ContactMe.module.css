@@ -2,7 +2,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 99vw;
+    width: 100vw;
     height: 100vh;
     background-color: #ffe2e2;
 }
@@ -12,7 +12,7 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    width: 79%;
+    width: 80%;
     height: 40%;
     border: 2px solid black;
 }
