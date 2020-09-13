@@ -14,6 +14,7 @@ export function Works() {
                 <div className={s.body}>
                     <Work/>
                     <Work/>
+                    <Work/>
                 </div>
             </div>
         </div>

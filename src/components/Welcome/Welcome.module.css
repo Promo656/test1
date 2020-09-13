@@ -2,7 +2,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
+    padding: 50px;
     background-color: #ffdee9;
 }
 
@@ -11,6 +11,7 @@
     flex-wrap: wrap;
     justify-content: space-around;
     width: 80%;
+    min-width: 300px;
     border: 2px solid black;
 }
 
@@ -20,13 +21,14 @@
     background-color: white;
     font-size: 20pt;
     font-weight: bold;
+    width: 350px;
 }
 
 
 .backgroundDecoration {
     display: flex;
     align-self: stretch;
-    width: 300px;
+    width: 350px;
     height: 400px;
     background-color: #d8d8d8;
 }

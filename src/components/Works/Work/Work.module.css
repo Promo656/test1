@@ -1,24 +1,18 @@
 .containerBlock {
-    box-sizing: border-box;
-    border-left: 2px solid black;
-    border-right: 2px solid black;
-    width: 40%;
-    height: 100%;
+    border: 2px solid black;
+    width: 150px;
     display: flex;
     flex-direction: column;
+    margin: 10px 0;
 }
 
 .header {
-    border-bottom: 2px solid #000000;
+    border: 2px solid #000000;
     background-color: #d8d8d8;
-    height: 70%;
+    height: 170px;
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-.text {
-
 }
 
 .btn{

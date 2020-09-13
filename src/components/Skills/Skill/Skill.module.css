@@ -1,31 +1,28 @@
 .containerBlock {
     background-color: white;
-    box-sizing: border-box;
-    border-left: 2px solid black;
-    border-right: 2px solid black;
-    width: 25%;
-    height: 100%;
+    border: 2px solid black;
+    width: 150px;
     display: flex;
     flex-direction: column;
-
+    margin: 10px 0;
 }
 
 .header {
-    border-bottom: 2px solid #000000;
-    height: 55%;
+    border: 2px solid #000000;
+    height: 170px;
     display: flex;
     justify-content: space-between;
     flex-direction: column;
     align-items: center;
 }
 
-.backgroundDecoration{
+.backgroundDecoration {
     background-color: #d8d8d8;
     width: 100px;
     height: 100px;
 }
 
-.text{
+.text {
     display: flex;
     justify-content: center;
     align-items: center;

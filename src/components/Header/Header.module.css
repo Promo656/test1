@@ -1,15 +1,22 @@
 .containerBlock {
-    width: 100vw;
-    height: 70px;
+
     background-color: #cfeaff;
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 35px 50px 35px 0;
+}
+
+.wrapper{
+    display: flex;
+    justify-content: flex-end;
+    width: 80%;
+    min-width: 300px;
 }
 
 .headerMenu {
     border: 2px solid black;
-    width: 350px;
+    min-width: 350px;
     display: flex;
     justify-content: space-between;
     align-items: center;

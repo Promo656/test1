@@ -2,14 +2,15 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100vw;
-    height: 100vh;
     background-color: #f1e2ff;
+    padding: 50px;
 }
 
 .presentBlock{
-    width: 79%;
-    height: 60%;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    min-width: 300px;
 }
 
 .header{
@@ -17,7 +18,7 @@
     justify-content: center;
     align-items: flex-start;
     border: 2px solid black;
-    height: 35%;
+    height: 150px;
 }
 
 .text{
@@ -27,8 +28,8 @@
 }
 
 .body{
-    border-bottom: 2px solid black;
+    border: 2px solid black;
     display: flex;
-    justify-content: space-between;
-    height: 65%;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }

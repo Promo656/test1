@@ -2,9 +2,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 99vw;
-    height: 40vh;
     background-color: #ebffe4;
+    padding: 50px;
 }
 
 .presentBlock {
@@ -12,8 +11,9 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    width: 79%;
-    height: 40%;
+    height: 200px;
+    width: 80%;
+    min-width: 300px;
     border: 2px solid black;
 }
 
@@ -28,15 +28,15 @@
 .block {
     display: flex;
     justify-content: space-between;
-    width: 50%;
-    height: 40%;
+
     border: 2px solid black;
 }
 
 .miniBlock {
     background-color: #d8d8d8;
-    height: 100%;
-    width: 70px;
+    height: 50px;
+    width: 50px;
+    margin: 10px;
 }
 
 .text {

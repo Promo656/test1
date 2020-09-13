@@ -2,9 +2,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100vw;
-    height: 40vh;
     background-color: #fffeec;
+    padding: 50px;
 }
 
 .presentBlock {
@@ -12,18 +11,20 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
+    height: 150px;
     width: 80%;
-    height: 40%;
+    min-width: 300px;
     border: 2px solid black;
 }
 
 .text {
+    text-align: center;
     background-color: #d8d8d8;
     font-size: 19pt;
     font-weight: bold;
 }
 
-.btn{
+.btn {
     background-color: #929292;
     font-size: 16pt;
     font-weight: bold;
