@@ -4,19 +4,14 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 35px 50px 35px 0;
+
 }
 
-.wrapper{
-    display: flex;
-    justify-content: flex-end;
-    width: 80%;
-    min-width: 300px;
-}
 
 .headerMenu {
+    margin: 30px 0;
     border: 2px solid black;
-    min-width: 350px;
+    min-width: 300px;
     display: flex;
     justify-content: space-between;
     align-items: center;
