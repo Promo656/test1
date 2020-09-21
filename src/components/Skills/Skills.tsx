@@ -8,13 +8,20 @@ export function Skills() {
             <div className={s.presentBlock}>
                 <div className={s.header}>
                     <div className={s.text}>
-                        Мои скиллы
+                        General Skills
                     </div>
                 </div>
                 <div className={s.body}>
-                    <Skill/>
-                    <Skill/>
-                    <Skill/>
+                    <div className={s.skillsBlock1}>
+                        <Skill skillName={"HTML5"} percent={90}/>
+                        <Skill skillName={"CSS3"} percent={80}/>
+                        <Skill skillName={"Java Script"} percent={70}/>
+                    </div>
+                    <div className={s.skillsBlock2}>
+                        <Skill skillName={"GIT"} percent={50}/>
+                        <Skill skillName={"Type Script"} percent={70}/>
+                        <Skill skillName={"React JS"} percent={70}/>
+                    </div>
                 </div>
             </div>
         </div>
