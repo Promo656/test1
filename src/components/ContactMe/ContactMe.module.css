@@ -13,35 +13,26 @@
     align-items: center;
     width: 80%;
     min-width: 300px;
-    height: 200px;
-    border: 2px solid black;
+    height: 300px;
 }
 
 .contact {
-    background-color: #d5d9d6;
-    font-size: 15pt;
+    font-size: 16pt;
     font-weight: bold;
-    padding: 0 5px;
-    align-self: center;
+    align-self: flex-start;
 }
 
 .form {
     display: flex;
     flex-direction: column;
-    width: 40%;
-    height: 40%;
-    border: 1px solid black;
+    width: 80%;
+    min-width: 300px;
 }
 
-.message{
-    word-wrap: break-word;
-    height: 80px;
+.formEmail {
+
 }
 
-.btn{
-    background-color: #939494;
-    font-size: 15pt;
-    font-weight: bold;
-    padding: 6px;
-    align-self: center;
+.btn {
+
 }

@@ -1,21 +1,20 @@
 import React from "react";
 import s from "./ContactMe.module.css"
+import {Button, TextField} from "@material-ui/core";
 
 export function ContactMe() {
     return (
         <div className={s.containerBlock}>
             <div className={s.presentBlock}>
-                <div className={s.contact}>
-                    Контакты
-                </div>
+                <p className={s.contact}>
+                    Get in touch
+                </p>
                 <form className={s.form}>
-                    <input type="text" placeholder={"Name"}/>
-                    <input type="text" placeholder={"E-mail"}/>
-                    <input className={s.message} type="text" placeholder={"Your message"}/>
+                    <TextField className={s.formName} label="Name" variant={"outlined"}/>
+                    <TextField className={s.formEmail} label="Email" variant={"outlined"}/>
+                    <TextField className={s.formMessage} label="Your Message" variant={"outlined"} multiline/>
                 </form>
-                <button className={s.btn}>
-                    Отправить
-                </button>
+                <Button className={s.btn} variant="outlined" color="primary">Sent</Button>
             </div>
         </div>
     )

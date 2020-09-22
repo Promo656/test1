@@ -6,11 +6,7 @@ export function Skills() {
     return (
         <div className={s.containerBlock}>
             <div className={s.presentBlock}>
-                <div className={s.header}>
-                    <div className={s.text}>
-                        General Skills
-                    </div>
-                </div>
+                <p className={s.header}>General Skills</p>
                 <div className={s.body}>
                     <div className={s.skillsBlock1}>
                         <Skill skillName={"HTML5"} percent={90}/>

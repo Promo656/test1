@@ -6,12 +6,9 @@ export function Works() {
     return (
         <div className={s.containerBlock}>
             <div className={s.presentBlock}>
-                <div className={s.header}>
-                    <div className={s.text}>
-                        Мои работы
-                    </div>
-                </div>
+                <p className={s.header}>My Project</p>
                 <div className={s.body}>
+                    <Work/>
                     <Work/>
                     <Work/>
                     <Work/>
