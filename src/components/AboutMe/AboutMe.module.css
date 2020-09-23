@@ -1,16 +1,19 @@
 .containerBlock {
     display: flex;
     justify-content: center;
-    align-items: center;
-    background-color: #ddfee9;
-    padding: 100px 50px 50px 50px;
+    background-color: #b0acf6;
+    padding: 0 50px;
+    height: 470px;
+    margin-top: 50px;
 }
 
 .presentBlock {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     width: 80%;
     min-width: 300px;
+
 }
 
 .header {
@@ -20,9 +23,3 @@
     font-weight: bold;
 }
 
-.skillsBlock1 {
-
-}
-.skillsBlock2 {
-
-}
