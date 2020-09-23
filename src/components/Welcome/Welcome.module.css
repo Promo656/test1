@@ -29,12 +29,17 @@ a{
     display: flex;
 }
 
+.photo{
+
+}
+
 .description{
     margin-left: 100px;
 }
 
 .img{
+    height: auto;
+    width: 100%;
     border-radius: 7px;
-    height: 400px;
-    width: 394px;
+
 }

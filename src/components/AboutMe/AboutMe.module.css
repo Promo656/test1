@@ -3,14 +3,14 @@
     justify-content: center;
     background-color: #b0acf6;
     padding: 0 50px;
-    height: 470px;
-    margin-top: 50px;
+    height: 350px;
+    margin-top: 60px;
 }
 
 .presentBlock {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-around;
     width: 80%;
     min-width: 300px;
 
@@ -20,6 +20,11 @@
     display: flex;
     justify-content: flex-start;
     font-size: 16pt;
+    font-weight: bold;
+}
+
+.aboutMe{
+    font-size: 15pt;
     font-weight: bold;
 }
 
