@@ -52,7 +52,7 @@
     content: "";
     border-radius: 50%;
     background-color: rgb(255, 255, 255);
-    left: -4px;
+    left: -5px;
 }
 
 .secondPlace{
@@ -66,7 +66,7 @@
     height: 12px;
     border: 2px solid #6d56c1;
     position: absolute;
-    left: -4px;
+    left: -5px;
     content: "";
     border-radius: 50%;
     background-color: #ddfee9;
@@ -82,7 +82,7 @@
     height: 12px;
     border: 2px solid #6d56c1;
     position: absolute;
-    left: -4px;
+    left: -5px;
     content: "";
     border-radius: 50%;
     background-color: #ddfee9;

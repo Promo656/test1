@@ -3,7 +3,7 @@
     justify-content: center;
     background-color: #ffdee9;
     padding: 0 50px;
-    height: 470px;
+    /*height: 470px;*/
 }
 
 .presentBlock {
@@ -12,34 +12,39 @@
     justify-content: space-between;
     width: 80%;
     min-width: 300px;
-
 }
-.menu{
+
+.menu {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     margin: 50px 0;
-    width: 600px;
+    width: 80%;
 }
 
-a{
+a {
     font-size: 16pt;
 }
 
-.about{
+.about {
     display: flex;
+    flex-wrap: wrap;
 }
 
-.photo{
-
-}
-
-.description{
+.description {
     margin-left: 100px;
 }
 
-.img{
-    height: auto;
-    width: 100%;
+.img {
+    object-fit: none;
     border-radius: 7px;
+}
 
+.name {
+    font-size: 20pt;
+    font-weight: bold;
+}
+
+.position {
+    margin-top: 10px;
 }
