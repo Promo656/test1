@@ -8,10 +8,12 @@ import {ContactMe} from "./components/ContactMe/ContactMe";
 import {Footer} from "./components/Footer/Footer";
 import {AboutMe} from "./components/AboutMe/AboutMe";
 import {Resume} from "./components/Resume/Resume";
+import {Header} from "./components/Header/Header";
 
 function App() {
     return (
         <div className={s.mainContainer}>
+            <Header/>
             <WelcomeBlock/>
             <AboutMe/>
             <Resume/>
