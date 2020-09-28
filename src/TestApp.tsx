@@ -1,31 +1,37 @@
 import React from "react";
-import s from "./test.module.css"
+import s from "./css.module.css"
 
 export function Site() {
     return (
         <div>
             <Menu/>
-            <Header/>
-            <Hello/>
+
         </div>
     )
 }
 
 function Menu() {
     return (
-        <div className={s.container}>
-            <div className={s.row}>
-                <div className="menu__wrapper d-none d-lg-block col-md-12">
-                    <nav className="">
-                        <ul>
-                            <li><a href="#hello">Hello</a></li>
-                            <li><a href="#resume">Resume</a></li>
-                            <li><a href="#portfolio">Portfolio</a></li>
-                            <li><a href="#testimonials">testimonials</a></li>
-                            <li><a href="#blog">blog</a></li>
-                            <li><a href="#contact">Contact</a></li>
-                        </ul>
-                    </nav>
+        <div className={s.menu}>
+            <div className={s.container}>
+                <div className={s.row}>
+                    <div className={s.menu__wrapper + "" + s.d_none + "" + s.d_lg_block + "" + s.col_md_12}>
+                        <nav className="">
+                            <ul>
+                                <li><a href="#hello">Hello</a></li>
+                                <li><a href="#resume">Resume</a></li>
+                                <li><a href="#portfolio">Portfolio</a></li>
+                                <li><a href="#testimonials">testimonials</a></li>
+                                <li><a href="#blog">blog</a></li>
+                                <li><a href="#contact">Contact</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div className="menu__wrapper col-md-12 d-lg-none">
+                        <button type="button" className="menu__mobile-button">
+                            <span><i className="fa fa-bars" aria-hidden="true"></i></span>
+                        </button>
+                    </div>
                 </div>
             </div>
         </div>
@@ -82,8 +88,9 @@ function Hello() {
                         proficient in
                         an array of scripting languages and multimedia Web tools.
                     </p>
-                    <a href="" className={s.section_btn + "" + s.siteBtn}><img src="assets/img/img_btn_icon.png" alt=""/>
-                    Download CV</a>
+                    <a href="" className={s.section_btn + "" + s.siteBtn}><img src="assets/img/img_btn_icon.png"
+                                                                               alt=""/>
+                        Download CV</a>
                 </div>
             </div>
         </section>

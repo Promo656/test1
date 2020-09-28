@@ -4,11 +4,11 @@ import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 import 'semantic-ui-css/semantic.min.css'
-import {Site} from "./TestApp";
+
 
 ReactDOM.render(
   <React.StrictMode>
-    <Site />
+    <App />
   </React.StrictMode>,
   document.getElementById('root')
 );
