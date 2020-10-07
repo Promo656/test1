@@ -1,0 +1,29 @@
+.containerBlock {
+    background-color: white;
+    z-index: 100;
+    position: fixed;
+    height: 70px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.presentBlock {
+    border: 1px solid red;
+}
+
+.presentBlock a {
+    font-size: 16pt;
+    color: black;
+    margin-right: 50px;
+}
+
+.presentBlock a:hover {
+
+}
+
+
+
+
+
+

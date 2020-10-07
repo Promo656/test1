@@ -1,9 +1,9 @@
 .containerBlock {
     display: flex;
     justify-content: center;
-    align-items: center;
+
     background-color: #fffeec;
-    padding: 50px;
+
 }
 
 .presentBlock {
@@ -12,7 +12,7 @@
     align-items: center;
     justify-content: space-between;
     height: 150px;
-    width: 80%;
+
     min-width: 300px;
     border: 2px solid black;
 }

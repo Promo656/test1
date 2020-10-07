@@ -1,5 +1,5 @@
 import React from "react";
-import s from "./AboutMe.module.css";
+import s from "./AboutMe.module.scss";
 import {Button} from "semantic-ui-react";
 
 
@@ -21,7 +21,7 @@ export function AboutMe() {
                         quaerat ratione repudiandae?
                     </p>
                     <Button color={"violet"}>DOWNLOAD CV</Button>
-
+                    <hr/>
                 </div>
             </div>
         </div>

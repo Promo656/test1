@@ -1,15 +1,14 @@
 .containerBlock {
     display: flex;
     justify-content: center;
-    align-items: center;
     background-color: #f1e2ff;
-    padding: 50px;
+
 }
 
 .presentBlock{
     display: flex;
     flex-direction: column;
-    width: 80%;
+
     min-width: 300px;
 }
 

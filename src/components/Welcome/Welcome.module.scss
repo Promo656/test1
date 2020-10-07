@@ -3,35 +3,28 @@
     display: flex;
     justify-content: center;
     background: linear-gradient(54deg,rgba(74,76,179,.95) 34%,hsla(0,34%,71%,.95));
-    padding: 0 50px;
+
 }
 
 .presentBlock {
     margin-top: 80px;
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    width: 80%;
     min-width: 300px;
-}
-
-
-a {
-    font-size: 16pt;
 }
 
 .about {
     display: flex;
-    flex-wrap: wrap;
 }
 
 .description {
     margin-left: 100px;
+    margin-top: 50px;
 }
 
 .img {
     object-fit: none;
     border-radius: 7px;
+    transform: translate(0px, 50px);
 }
 
 .name {
@@ -65,4 +58,17 @@ a {
 
 .contact_list.contact_list_opacity_titles dt {
     color: rgb(153, 153, 153);
+}
+
+@media (max-width: 1059px) {
+    .img{
+        display: none;
+    }
+    .description {
+        margin-left: 0;
+    }
+    .about {
+        justify-content: center;
+    }
+
 }

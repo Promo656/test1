@@ -1,5 +1,5 @@
 import React from "react";
-import s from "./FindNewJob.module.css"
+import s from "./FindNewJob.module.scss"
 
 export function FindNewJob() {
     return (

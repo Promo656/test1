@@ -1,5 +1,5 @@
 import React from "react";
-import s from "./css.module.css"
+import s from "./trash/css.module.css"
 
 export function Site() {
     return (

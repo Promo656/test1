@@ -1,5 +1,5 @@
 import React from "react";
-import s from "./Works.module.css"
+import s from "./Works.module.scss"
 import {Work} from "./Work/Work";
 
 export function Works() {

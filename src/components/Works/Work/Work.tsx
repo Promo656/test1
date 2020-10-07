@@ -1,5 +1,5 @@
 import React from "react";
-import s from "./Work.module.css";
+import s from "./Work.module.scss";
 import photo from "./../canva-photo-editor.png"
 
 export function Work() {

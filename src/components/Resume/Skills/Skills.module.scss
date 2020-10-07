@@ -1,15 +1,14 @@
 .containerBlock {
     display: flex;
     justify-content: center;
-    align-items: center;
     background-color: #ddfee9;
-    padding: 100px 50px 50px 50px;
+
 }
 
 .presentBlock {
     display: flex;
     flex-direction: column;
-    width: 80%;
+width: 100%;
     min-width: 300px;
 }
 
@@ -20,9 +19,21 @@
     font-weight: bold;
 }
 
-.skillsBlock1 {
-
+.body {
+    display: flex;
+    justify-content: space-between;
 }
-.skillsBlock2 {
 
+.skillsBlock {
+    width: 49%;
+}
+
+@media (max-width: 1290px) {
+    .skillsBlock {
+        width: 100%;
+        margin-right: 0;
+    }
+    .body {
+        flex-wrap: wrap;
+    }
 }

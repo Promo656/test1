@@ -1,5 +1,5 @@
 import React from "react";
-import s from "../Employment/Employment.module.css";
+import s from "./Employment.module.scss";
 
 export function Employment() {
     return (

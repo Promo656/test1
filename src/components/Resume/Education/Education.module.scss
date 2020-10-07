@@ -1,15 +1,13 @@
 .containerBlock {
     display: flex;
     justify-content: center;
-    align-items: center;
-    background-color: #baf1cd;
-    padding: 100px 50px 50px 50px;
+    background-color: #ddfee9;
+
 }
 
 .presentBlock {
     display: flex;
     flex-direction: column;
-    width: 80%;
     min-width: 300px;
 }
 
@@ -47,12 +45,12 @@
 .firstPlace::before{
     width: 12px;
     height: 12px;
-    border: 2px solid #6d56c1;
+    border: 2px solid rgb(109, 86, 193);
     position: absolute;
-    left: -5px;
     content: "";
     border-radius: 50%;
-    background-color: #baf1cd;
+    background-color: rgb(255, 255, 255);
+    left: -5px;
 }
 
 .secondPlace{
@@ -69,7 +67,7 @@
     left: -5px;
     content: "";
     border-radius: 50%;
-    background-color: #baf1cd;
+    background-color: #ddfee9;
 }
 
 .thirdPlace{
@@ -85,5 +83,5 @@
     left: -5px;
     content: "";
     border-radius: 50%;
-    background-color: #baf1cd;
+    background-color: #ddfee9;
 }

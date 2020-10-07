@@ -1,5 +1,5 @@
 import React from "react";
-import s from "./ContactMe.module.css"
+import s from "./ContactMe.module.scss"
 import {Button, TextField} from "@material-ui/core";
 
 export function ContactMe() {

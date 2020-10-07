@@ -1,14 +1,15 @@
 import React from "react";
-import s from "./Header.module.css"
+import s from "./Header.module.scss"
+import "../../index.scss"
 
 export function Header() {
     return (
-        <div className={s.containerBlock}>
+        <div className={`${s.containerBlock} wrapper`}>
             <div className={s.presentBlock}>
-                <div><a href="#">About Me</a></div>
-                <div><a href="#">Resume</a></div>
-                <div><a href="#">My Projects</a></div>
-                <div><a href="#">Contact</a></div>
+                <a href="#">About Me</a>
+                <a href="#">Resume</a>
+                <a href="#">My Projects</a>
+                <a href="#">Contact</a>
             </div>
         </div>
     )

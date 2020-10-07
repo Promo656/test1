@@ -1,5 +1,5 @@
 import React from "react";
-import s from "./Welcome.module.css";
+import s from "./Welcome.module.scss";
 import foto from "./Photo.jpg"
 
 export function WelcomeBlock() {
@@ -7,15 +7,14 @@ export function WelcomeBlock() {
     return (
         <div className={s.containerBlock}>
             <div className={s.presentBlock}>
-                <div className={s.about}>
                     <img
                         className={s.img}
                         src={foto}
                         alt=""
                     />
                     <div className={s.description}>
-                        <span className={s.name}>Egor Postnov</span>
-                        <p className={s.position}>frontend developer, QA-engineer</p>
+                        <h3 className={s.name}>Egor Postnov</h3>
+                        <p className={s.position}>frontend developer</p>
                         <div className={s.personal_profile_contacts}>
                             <dl className={s.contact_list + " " + s.contact_list_opacity_titles}>
                                 <dt>Age:</dt>
@@ -29,7 +28,6 @@ export function WelcomeBlock() {
                             </dl>
                         </div>
                     </div>
-                </div>
             </div>
         </div>
     )

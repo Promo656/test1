@@ -1,5 +1,5 @@
 import React from "react";
-import s from "../Education/Education.module.css";
+import s from "./Education.module.scss";
 
 
 export function Education() {
