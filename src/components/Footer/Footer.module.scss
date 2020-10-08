@@ -1,46 +1,56 @@
-.containerBlock {
-    display: flex;
-    justify-content: center;
-    background-color: #ebffe4;
-}
+@import "src/Common/Styles/mixins";
 
-.presentBlock {
+.footerBlock {
+  padding-top: 70px;
+  display: flex;
+  justify-content: center;
+  background-color: #ebffe4;
+
+  .presentBlock {
+    @include commonContainer;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
     height: 200px;
-
-    min-width: 300px;
     border: 2px solid black;
+
+    .name {
+      align-self: center;
+      background-color: #d8d8d8;
+      font-size: 15pt;
+      font-weight: bold;
+      padding: 0 7px;
+    }
+
+    .block {
+      display: flex;
+      justify-content: space-between;
+      border: 2px solid black;
+
+      .miniBlock {
+        background-color: #d8d8d8;
+        height: 50px;
+        width: 50px;
+        margin: 10px;
+      }
+    }
+
+    .text {
+      align-self: center;
+      background-color: #d8d8d8;
+      font-size: 15pt;
+      font-weight: bold;
+      padding: 0 7px;
+    }
+  }
 }
 
-.name {
-    align-self: center;
-    background-color: #d8d8d8;
-    font-size: 15pt;
-    font-weight: bold;
-    padding: 0 7px;
-}
 
-.block {
-    display: flex;
-    justify-content: space-between;
 
-    border: 2px solid black;
-}
 
-.miniBlock {
-    background-color: #d8d8d8;
-    height: 50px;
-    width: 50px;
-    margin: 10px;
-}
 
-.text {
-    align-self: center;
-    background-color: #d8d8d8;
-    font-size: 15pt;
-    font-weight: bold;
-    padding: 0 7px;
-}
+
+
+
+

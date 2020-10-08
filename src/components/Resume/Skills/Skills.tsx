@@ -4,7 +4,7 @@ import {Skill} from "./Skill/Skill";
 
 export function Skills() {
     return (
-        <div className={s.containerBlock}>
+        <div className={s.skillBlock}>
             <div className={s.presentBlock}>
                 <p className={s.header}>General Skills</p>
                 <div className={s.body}>
@@ -14,7 +14,7 @@ export function Skills() {
                         <Skill skillName={"Java Script"} percent={70}/>
                     </div>
                     <div className={s.skillsBlock}>
-                        <Skill skillName={"GIT"} percent={50}/>
+                        <Skill skillName={"GIT"} percent={65}/>
                         <Skill skillName={"Type Script"} percent={70}/>
                         <Skill skillName={"React JS"} percent={70}/>
                     </div>

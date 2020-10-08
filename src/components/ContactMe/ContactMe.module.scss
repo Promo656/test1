@@ -1,38 +1,29 @@
-.containerBlock {
-    display: flex;
-    justify-content: center;
+@import "src/Common/Styles/mixins";
 
-    background-color: #ffe2e2;
+.contactMeBlock {
+  display: flex;
+  justify-content: center;
 
-}
-
-.presentBlock {
+  .presentBlock {
+    @include commonContainer;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    height: 370px;
 
-    min-width: 300px;
-    height: 300px;
+    .contact {
+      font-size: 16pt;
+      font-weight: bold;
+      align-self: flex-start;
+    }
+
+    .form {
+      display: flex;
+      flex-direction: column;
+      width: 80%;
+      min-width: 300px;
+    }
+  }
 }
 
-.contact {
-    font-size: 16pt;
-    font-weight: bold;
-    align-self: flex-start;
-}
-
-.form {
-    display: flex;
-    flex-direction: column;
-    width: 80%;
-    min-width: 300px;
-}
-
-.formEmail {
-
-}
-
-.btn {
-
-}

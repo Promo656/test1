@@ -1,39 +1,36 @@
-.containerBlock {
-    display: flex;
-    justify-content: center;
-    background-color: #ddfee9;
+@import "src/Common/Styles/mixins";
 
-}
+.skillBlock {
+  display: flex;
+  justify-content: center;
 
-.presentBlock {
+  .presentBlock {
+    @include commonContainer;
     display: flex;
     flex-direction: column;
-width: 100%;
-    min-width: 300px;
-}
 
-.header {
-    display: flex;
-    justify-content: flex-start;
-    font-size: 16pt;
-    font-weight: bold;
-}
+    .header {
+      font-size: 16pt;
+      font-weight: bold;
+    }
 
-.body {
-    display: flex;
-    justify-content: space-between;
-}
+    .body {
+      display: flex;
+      justify-content: space-between;
 
-.skillsBlock {
-    width: 49%;
+      .skillsBlock {
+        width: 49%;
+      }
+    }
+  }
 }
 
 @media (max-width: 1290px) {
-    .skillsBlock {
-        width: 100%;
-        margin-right: 0;
-    }
-    .body {
-        flex-wrap: wrap;
-    }
+  .skillsBlock {
+    width: 100%;
+    margin-right: 0;
+  }
+  .body {
+    flex-wrap: wrap;
+  }
 }

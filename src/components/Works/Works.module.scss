@@ -1,30 +1,32 @@
-.containerBlock {
-    display: flex;
-    justify-content: center;
-    background-color: #f1e2ff;
+@import "src/Common/Styles/mixins";
 
-}
+.projectsBlock {
+  display: flex;
+  justify-content: center;
 
-.presentBlock{
+  .presentBlock {
+    @include commonContainer;
     display: flex;
     flex-direction: column;
 
-    min-width: 300px;
+    .header {
+      font-size: 16pt;
+      font-weight: bold;
+    }
+
+    .body {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+    }
+  }
 }
 
-.header{
-    display: flex;
-    justify-content: flex-start;
-    font-size: 16pt;
-    font-weight: bold;
-}
 
-.body{
 
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-}
+
+
+
 
 
 

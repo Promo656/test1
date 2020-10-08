@@ -1,28 +1,67 @@
-.containerBlock {
-    background-color: white;
-    z-index: 100;
-    position: fixed;
-    height: 70px;
-    width: 100%;
+@import "src/Common/Styles/mixins";
+
+.headerBlock {
+  background-color: white;
+  z-index: 100;
+  position: fixed;
+  height: 70px;
+  width: 100%;
+  display: flex;
+
+  .header {
+    @include commonContainer;
+    padding-top: 0;
     display: flex;
     align-items: center;
+
+    .nav {
+
+      a {
+        font-size: 16pt;
+        color: black;
+        margin-right: 50px;
+
+        &:hover {
+          color: rgb(153, 153, 153);
+        }
+      }
+    }
+  }
 }
 
-.presentBlock {
-    border: 1px solid red;
+
+.burgerMenu {
+  display: none;
+
+  .burgerNav {
+    width: 100vw;
+    height: 100vh;
+    opacity: 0.7;
+    background-color: #050505;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .showBurgerMenu {
+    display: none;
+  }
 }
 
-.presentBlock a {
-    font-size: 16pt;
-    color: black;
-    margin-right: 50px;
+
+@media (max-width: 1059px) {
+  .headerBlock {
+    .header {
+      display: none;
+    }
+  }
+  .burgerMenu {
+    @include commonContainer;
+
+    padding-top: 0;
+    display: flex;
+    align-items: center;
+  }
 }
-
-.presentBlock a:hover {
-
-}
-
-
 
 
 

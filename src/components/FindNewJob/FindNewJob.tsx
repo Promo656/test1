@@ -3,11 +3,11 @@ import s from "./FindNewJob.module.scss"
 
 export function FindNewJob() {
     return (
-            <div className={s.containerBlock}>
+            <div className={s.findNewJobBlock}>
                 <div className={s.presentBlock}>
-                    <div className={s.text}>
+                    <span className={s.text}>
                         Рассматриваю вариант удаленной работы
-                    </div>
+                    </span>
                     <button className={s.btn}>
                         Найти меня
                     </button>

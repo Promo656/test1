@@ -1,74 +1,65 @@
-.containerBlock {
-    height: 480px;
+@import "src/Common/Styles/mixins";
+
+.welcomeBlockBlock {
+  display: flex;
+  background: linear-gradient(54deg, rgba(74, 76, 179, .95) 34%, hsla(0, 34%, 71%, .95));
+
+  .presentBlock {
+    @include commonContainer;
     display: flex;
-    justify-content: center;
-    background: linear-gradient(54deg,rgba(74,76,179,.95) 34%,hsla(0,34%,71%,.95));
 
-}
+    .img {
+      margin-right: 100px;
+      object-fit: none;
+      border-radius: 7px;
+      transform: translate(0px, 50px);
+    }
 
-.presentBlock {
-    margin-top: 80px;
-    display: flex;
-    min-width: 300px;
-}
+    .description {
+      margin-top: 50px;
 
-.about {
-    display: flex;
-}
+      .name {
+        font-size: 44px;
+        line-height: 50px;
+        font-weight: 700;
+        font-family: Roboto Mono, monospace;
+      }
 
-.description {
-    margin-left: 100px;
-    margin-top: 50px;
-}
+      .position {
+        font-size: 16px;
+        line-height: 24px;
+        margin-top: 10px;
+        font-family: Roboto Mono, monospace;
+      }
 
-.img {
-    object-fit: none;
-    border-radius: 7px;
-    transform: translate(0px, 50px);
-}
+      .profileContacts {
+        margin-bottom: 20px;
 
-.name {
-    font-size: 44px;
-    line-height: 50px;
-    font-weight: 700;
-    font-family: Roboto Mono, monospace;
-}
+        .contactList {
+          dt {
+            float: left;
+            font-weight: 700;
+            text-transform: uppercase;
+            color: rgb(153, 153, 153);
+          }
 
-.position {
-    font-size: 16px;
-    line-height: 24px;
-    margin-top: 10px;
-    font-family: Roboto Mono, monospace;
-}
-
-.personal_profile_contacts {
-    margin-bottom: 20px
-}
-
-.contact_list dt {
-    float: left;
-    font-weight: 700;
-    text-transform: uppercase
-}
-
-.contact_list dd {
-    padding-left: 100px;
-    margin-bottom: 15px
-}
-
-.contact_list.contact_list_opacity_titles dt {
-    color: rgb(153, 153, 153);
+          dd {
+            padding-left: 100px;
+            margin-bottom: 15px
+          }
+        }
+      }
+    }
+  }
 }
 
 @media (max-width: 1059px) {
-    .img{
-        display: none;
-    }
-    .description {
-        margin-left: 0;
-    }
-    .about {
-        justify-content: center;
-    }
-
+  .img {
+    display: none;
+  }
+  .description {
+    margin-left: 0;
+    display: flex;
+    flex-direction: column;
+  }
 }

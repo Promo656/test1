@@ -1,87 +1,26 @@
-.containerBlock {
-    display: flex;
-    justify-content: center;
-    background-color: #ddfee9;
+@import "src/Common/Styles/mixins";
 
-}
+.educationBlock {
+  display: flex;
+  justify-content: center;
 
-.presentBlock {
+  .presentBlock {
+    @include commonContainer;
     display: flex;
     flex-direction: column;
-    min-width: 300px;
-}
-
-.header {
-    display: flex;
-    justify-content: flex-start;
-    font-size: 16pt;
-    font-weight: bold;
-}
-
-.body{
     position: relative;
+
+    .header {
+      font-size: 16pt;
+      font-weight: bold;
+    }
+  }
 }
 
-.placesName{
-    color: #6d56c1;
-    font-size: 12pt;
-    font-weight: bold;
-}
 
-.yearsPeriod{
-    color: rgb(153, 153, 153);
-}
 
-.description{
-    font-size: 11pt;
-}
 
-.firstPlace{
-    padding-left: 25px;
-    padding-bottom: 50px;
-    border-left: 3px solid #6d56c1;
-}
 
-.firstPlace::before{
-    width: 12px;
-    height: 12px;
-    border: 2px solid rgb(109, 86, 193);
-    position: absolute;
-    content: "";
-    border-radius: 50%;
-    background-color: rgb(255, 255, 255);
-    left: -5px;
-}
 
-.secondPlace{
-    padding-left: 25px;
-    padding-bottom: 50px;
-    border-left: 3px solid #6d56c1;
-}
 
-.secondPlace::before{
-    width: 12px;
-    height: 12px;
-    border: 2px solid #6d56c1;
-    position: absolute;
-    left: -5px;
-    content: "";
-    border-radius: 50%;
-    background-color: #ddfee9;
-}
 
-.thirdPlace{
-    padding-left: 25px;
-    border-left: 3px solid #6d56c1;
-}
-
-.thirdPlace::before{
-    width: 12px;
-    height: 12px;
-    border: 2px solid #6d56c1;
-    position: absolute;
-    left: -5px;
-    content: "";
-    border-radius: 50%;
-    background-color: #ddfee9;
-}

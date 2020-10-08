@@ -5,29 +5,25 @@ import foto from "./Photo.jpg"
 export function WelcomeBlock() {
 
     return (
-        <div className={s.containerBlock}>
+        <div className={s.welcomeBlockBlock}>
             <div className={s.presentBlock}>
-                    <img
-                        className={s.img}
-                        src={foto}
-                        alt=""
-                    />
-                    <div className={s.description}>
-                        <h3 className={s.name}>Egor Postnov</h3>
-                        <p className={s.position}>frontend developer</p>
-                        <div className={s.personal_profile_contacts}>
-                            <dl className={s.contact_list + " " + s.contact_list_opacity_titles}>
-                                <dt>Age:</dt>
-                                <dd>23</dd>
-                                <dt>Phone:</dt>
-                                <dd>8 (234) 456-33-33</dd>
-                                <dt>Email:</dt>
-                                <dd>mail@mail.com</dd>
-                                <dt>Address:</dt>
-                                <dd>Melbourne Victoria 3000 Australia</dd>
-                            </dl>
-                        </div>
+                <img className={s.img} src={foto} alt=""/>
+                <div className={s.description}>
+                    <h3 className={s.name}>Egor Postnov</h3>
+                    <p className={s.position}>frontend developer</p>
+                    <div className={s.profileContacts}>
+                        <dl className={s.contactList}>
+                            <dt>Age:</dt>
+                            <dd>23</dd>
+                            <dt>Phone:</dt>
+                            <dd>8 (234) 456-33-33</dd>
+                            <dt>Email:</dt>
+                            <dd>mail@mail.com</dd>
+                            <dt>Address:</dt>
+                            <dd>Melbourne Victoria 3000 Australia</dd>
+                        </dl>
                     </div>
+                </div>
             </div>
         </div>
     )

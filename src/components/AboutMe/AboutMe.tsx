@@ -5,10 +5,10 @@ import {Button} from "semantic-ui-react";
 
 export function AboutMe() {
     return (
-        <div className={s.containerBlock}>
-            <div className={s.presentBlock}>
+        <div className={s.aboutMeBlock}>
+            <div className={s.container}>
                 <p className={s.header}>About Me</p>
-                <div className={s.body}>
+                <div className={s.content}>
                     <p className={s.aboutMe}>
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad aliquam beatae culpa dignissimos
                         hic itaque nam non obcaecati officia vero? Cupiditate deserunt, eligendi et illo nihil nulla
@@ -21,7 +21,6 @@ export function AboutMe() {
                         quaerat ratione repudiandae?
                     </p>
                     <Button color={"violet"}>DOWNLOAD CV</Button>
-                    <hr/>
                 </div>
             </div>
         </div>

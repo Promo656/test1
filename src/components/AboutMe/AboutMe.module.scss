@@ -1,29 +1,34 @@
-.containerBlock {
-    display: flex;
-    justify-content: center;
+@import "./src/Common/Styles/mixins";
 
+.aboutMeBlock {
+  display: flex;
+  justify-content: center;
 
-
-}
-
-.presentBlock {
+  .container {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    padding-top: 70px;
-    min-width: 300px;
+    @include commonContainer;
 
+    .header {
+      display: flex;
+      justify-content: flex-start;
+      font-size: 16pt;
+      font-weight: bold;
+    }
+
+    .content {
+      .aboutMe {
+        font-size: 15pt;
+        font-weight: bold;
+      }
+    }
+  }
 }
 
-.header {
-    display: flex;
-    justify-content: flex-start;
-    font-size: 16pt;
-    font-weight: bold;
-}
 
-.aboutMe {
-    font-size: 15pt;
-    font-weight: bold;
-}
+
+
+
+
 

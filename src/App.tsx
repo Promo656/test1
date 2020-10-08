@@ -1,7 +1,7 @@
 import React from 'react';
 import s from "./App.module.scss"
 import {WelcomeBlock} from "./components/Welcome/Welcome";
-import {Works} from "./components/Works/Works";
+import {Projects} from "./components/Works/Works";
 import {FindNewJob} from "./components/FindNewJob/FindNewJob";
 import {ContactMe} from "./components/ContactMe/ContactMe";
 import {Footer} from "./components/Footer/Footer";
@@ -17,7 +17,7 @@ function App() {
             <WelcomeBlock/>
             <AboutMe/>
             <Resume/>
-            <Works/>
+            <Projects/>
             <FindNewJob/>
             <ContactMe/>
             <Footer/>

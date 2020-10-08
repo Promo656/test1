@@ -1,17 +1,17 @@
 import React from "react";
 import s from "./Works.module.scss"
-import {Work} from "./Work/Work";
+import {Project} from "./Work/Work";
 
-export function Works() {
+export function Projects() {
     return (
-        <div className={s.containerBlock}>
+        <div className={s.projectsBlock}>
             <div className={s.presentBlock}>
                 <p className={s.header}>My Project</p>
                 <div className={s.body}>
-                    <Work/>
-                    <Work/>
-                    <Work/>
-                    <Work/>
+                    <Project/>
+                    <Project/>
+                    <Project/>
+                    <Project/>
                 </div>
             </div>
         </div>

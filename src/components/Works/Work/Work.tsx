@@ -2,7 +2,7 @@ import React from "react";
 import s from "./Work.module.scss";
 import photo from "./../canva-photo-editor.png"
 
-export function Work() {
+export function Project() {
     return (
         /*<div className={s.containerBlock}>
             <div className={s.header}>
