@@ -1,10 +1,15 @@
 import React from "react";
 import s from "./Employment.module.scss";
 import {PlaceOfWork} from "../../../Common/Components/PlaceOfWork/PlaceOfWork";
+// @ts-ignore
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 export function Employment() {
+    AOS.init({duration:1200})
+
     return (
-        <div className={s.employmentBlock}>
+        <div className={s.employmentBlock} data-aos="fade-left">
             <div className={s.presentBlock}>
                 <p className={s.header}>Employment</p>
                 <PlaceOfWork

@@ -1,11 +1,15 @@
 import React from "react";
 import s from "./Education.module.scss";
 import {PlaceOfWork} from "../../../Common/Components/PlaceOfWork/PlaceOfWork";
-
+// @ts-ignore
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 export function Education() {
+    AOS.init({duration:1200})
+
     return (
-        <div className={s.educationBlock}>
+        <div className={s.educationBlock} data-aos="fade-right">
             <div className={s.presentBlock}>
                 <p className={s.header}>Education</p>
                 <PlaceOfWork

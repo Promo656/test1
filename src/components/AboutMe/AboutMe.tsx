@@ -1,12 +1,17 @@
-import React from "react";
+import React, {useEffect} from "react";
 import s from "./AboutMe.module.scss";
 import {Button} from "semantic-ui-react";
+// @ts-ignore
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 
 export function AboutMe() {
+  AOS.init({duration:1200})
+
     return (
         <div className={s.aboutMeBlock}>
-            <div className={s.container}>
+            <div className={s.container} data-aos="fade-up">
                 <p className={s.header}>About Me</p>
                 <div className={s.content}>
                     <p className={s.aboutMe}>
