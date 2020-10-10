@@ -1,6 +1,6 @@
 import React from "react";
 import s from "./Employment.module.scss";
-import {PlaceOfWork} from "../../../Common/Components/PlaceOfWork/PlaceOfWork";
+import {PlaceOfWork} from "../../Common/Components/PlaceOfWork/PlaceOfWork";
 // @ts-ignore
 import AOS from "aos";
 import "aos/dist/aos.css";

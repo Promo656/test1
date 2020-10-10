@@ -11,7 +11,7 @@ export function AboutMe() {
 
     return (
         <div className={s.aboutMeBlock}>
-            <div className={s.container} data-aos="fade-up">
+            <div className={s.container} data-aos="fade-right">
                 <p className={s.header}>About Me</p>
                 <div className={s.content}>
                     <p className={s.aboutMe}>

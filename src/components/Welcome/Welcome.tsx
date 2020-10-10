@@ -12,7 +12,7 @@ export function WelcomeBlock() {
         <div className={s.welcomeBlockBlock}>
             <div className={s.presentBlock}>
                 <img className={s.img} src={foto} alt="" />
-                <div className={s.description} data-aos="fade-left">
+                <div className={s.description} >
                     <h3 className={s.name}>Egor Postnov</h3>
                     <p className={s.position}>frontend developer</p>
                     <div className={s.profileContacts}>

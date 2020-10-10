@@ -1,26 +1,18 @@
 @import "src/Common/Styles/mixins";
 
-.educationBlock {
+.skillsBlock {
   display: flex;
   justify-content: center;
 
   .presentBlock {
     @include commonContainer;
     display: flex;
-    flex-direction: column;
-    position: relative;
-
-    .header {
-      font-size: 16pt;
-      font-weight: bold;
-    }
+    justify-content: space-between;
   }
 }
 
-
-
-
-
-
-
-
+@media (max-width: 1000px) {
+  .presentBlock {
+    flex-wrap: wrap;
+  }
+}

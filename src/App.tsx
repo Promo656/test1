@@ -6,8 +6,10 @@ import {FindNewJob} from "./components/FindNewJob/FindNewJob";
 import {ContactMe} from "./components/ContactMe/ContactMe";
 import {Footer} from "./components/Footer/Footer";
 import {AboutMe} from "./components/AboutMe/AboutMe";
-import {Resume} from "./components/Resume/Resume";
 import {Header} from "./components/Header/Header";
+import {Education} from "./components/Education/Education";
+import {Employment} from "./components/Employment/Employment";
+import {Skills} from "./components/Skills/Skills";
 
 
 function App() {
@@ -16,7 +18,9 @@ function App() {
             <Header/>
             <WelcomeBlock/>
             <AboutMe/>
-            <Resume/>
+            <Education/>
+            <Employment/>
+            <Skills/>
             <Projects/>
             <FindNewJob/>
             <ContactMe/>

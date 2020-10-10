@@ -6,7 +6,7 @@ type PropsType={
     percent:number
 }
 
-export function Skill(props:PropsType) {
+export function TechnicalSkill(props:PropsType) {
     return (
         <div>
             <p>{props.skillName}</p>
