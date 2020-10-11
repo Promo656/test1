@@ -1,19 +1,16 @@
 import React from "react";
 import s from "./Footer.module.scss"
+import {CopyrightOutlined} from "@ant-design/icons";
+// @ts-ignore
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 export function Footer() {
+    AOS.init()
+
     return (
         <div className={s.footerBlock}>
-            <div className={s.presentBlock}>
-                <span className={s.name}>Егор Постнов</span>
-                <div className={s.block}>
-                    <div className={s.miniBlock}></div>
-                    <div className={s.miniBlock}></div>
-                    <div className={s.miniBlock}></div>
-                    <div className={s.miniBlock}></div>
-                </div>
-                <div className={s.text}>2020 Все права защищены</div>
-            </div>
+            <CopyrightOutlined /> <span> Copyright 2020 Designer</span> | <span>All RightReserved.</span>
         </div>
     )
 }

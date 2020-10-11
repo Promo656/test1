@@ -9,7 +9,7 @@ export function Education() {
     AOS.init({duration:1200})
 
     return (
-        <div className={s.educationBlock} data-aos="fade-right">
+        <div className={s.educationBlock} data-aos="fade-right"  data-aos-delay="800">
             <div className={s.presentBlock}>
                 <p className={s.header}>Education</p>
                 <PlaceOfWork

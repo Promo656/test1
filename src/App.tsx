@@ -22,7 +22,7 @@ function App() {
             <Employment/>
             <Skills/>
             <Projects/>
-            <FindNewJob/>
+            {/*<FindNewJob/>*/}
             <ContactMe/>
             <Footer/>
         </div>

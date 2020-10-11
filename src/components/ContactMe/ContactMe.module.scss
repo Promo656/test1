@@ -3,6 +3,7 @@
 .contactMeBlock {
   display: flex;
   justify-content: center;
+  margin-bottom: 50px;
 
   .presentBlock {
     @include commonContainer;
@@ -10,7 +11,15 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    height: 370px;
+
+    .social {
+      display: flex;
+
+      a {
+        color: black;
+        margin: 0 26px;
+      }
+    }
 
     .contact {
       font-size: 16pt;
@@ -19,9 +28,11 @@
     }
 
     .form {
+      @include commonContainer;
+      padding-top: 30px;
       display: flex;
       flex-direction: column;
-      width: 80%;
+      width: 60%;
       min-width: 300px;
     }
   }

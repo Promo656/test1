@@ -1,7 +1,6 @@
 @import "src/Common/Styles/mixins";
 
 .headerBlock {
-  //background-color: white;
   z-index: 100;
   position: fixed;
   height: 70px;
@@ -18,7 +17,7 @@
 
       a {
         font-size: 16pt;
-        color: black;
+        color: white;
         margin-right: 50px;
 
         &:hover {
@@ -88,6 +87,7 @@
 }
 
 .headerScrolledBlock {
+  box-shadow: 0 0 15px rgba(122, 122, 122, 0.5);
   background-color: white;
   z-index: 100;
   position: fixed;
@@ -99,7 +99,7 @@
     @include commonContainer;
     padding-top: 0;
     display: flex;
-    align-items: flex-end;
+    align-items: center;
 
     .nav {
 
