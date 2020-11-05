@@ -8,7 +8,7 @@ export function Login() {
     }
 
     return <Container fixed>
-        <Grid item>
+        <Grid>
             <Paper style={{padding: "10px"}}>
                 <LoginReduxForm onSubmit={onsubmit}/>
             </Paper>

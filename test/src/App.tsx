@@ -22,7 +22,7 @@ class App extends React.Component {
 
         return (
             <div>
-                {/*<Route path="/login" render={() => <Login/>}/>*/}
+                <Route path="/login" render={() => <Login/>}/>
                 <button onClick={login}>Login</button>
                 <button onClick={getUsers}>Get Users</button>
 
